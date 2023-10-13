@@ -1,57 +1,103 @@
-function sum(){
-    let num1 = document.getElementsByClassName("number")[0].
-    value
-    let num2 = document.getElementsByClassName("number")[1].
-    value
-    let sum= Number(num1) + Number(num2)
-    let result = document.querySelector(".result")
-    result.innerHTML+=sum
+  
+/*(1)
+let num = [11, 4, 66, 7];
+let sum_of_elements = 0;
+for (let i = 0; i < num.length; i++) {
+    sum_of_elements += num[i];
 }
+console.log(sum_of_elements);*/
 
 
-function sum2(){
-    let num1 = document.getElementsByClassName("number")[2].
-    value
-    let num2 = document.getElementsByClassName("number")[3].
-    value
-    let sumP= Number(num1) + Number(num2)
-    let sum2 = Number(sumP) / Number(2)
-    let result = document.querySelector(".result2")
-    result.innerHTML+=sum2
+
+/*(2)
+let num = [14, 20, 5];
+let prod = 1;
+for(let i = 0; i < num.length; i++) {
+    prod *= num[i];
 }
+console.log(prod)*/
 
 
-function sum3(){
-    let num1 = document.getElementsByClassName("number")[4].
-    value
-    let num2 = document.getElementsByClassName("number")[5].
-    value
-    let sumP= Number(num1) + Number(num2)
-    let sumk = Number(sumP) / Number(2)
-    let sum3 = Number(sumk) * Number(sumk)
-    let result = document.querySelector(".result3")
-    result.innerHTML+=sum3
+
+/*(3)
+let num = [10, 11, 12, 13];
+for (let i = 0; i < num.length; i++) {
+    if(num[i]%2 !=1) {
+        console.log(num[i])
+    }
+}*/
+
+/*(4)
+let num = [10, 11, 12, 13];
+for (let i = 0; i < num.length; i++) {
+    if(num[i]%2 !=0) {
+        console.log(num[i])
+    }
+}*/
+
+
+
+
+
+/*(5)
+let name = ['Maks', 'Miron', 'Iren', 'Maks', 'Marks'];
+let uniqueName = new Set(name);
+console.log(Array.from(uniqueName));*/
+
+
+
+
+/*(6)
+let num = [22, 10, 2, 0, -5]
+for (let i = 0; i < num.length; i++) {
+    if(num[i] >= 0) {
+        console.log(num[i])
+    } else if (num[i] < 0) {
+        console.log(num[i])
+    }
+}*/
+
+/*(7)
+let num = [22, 10, 2, 0, -5, -200]
+for (let i = 0; i < num.length; i++) {
+    if (num[i] < 0) {
+        console.log(num[i])
+    }
+}*/
+
+
+/*(8)
+let numbers = [10, 15, 5, 20, 25, 30];
+let big = 15;
+let filteredNumbers = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] > big) {
+    filteredNumbers.push(numbers[i]);
+  }
 }
 
-function plus(){
-    let calcN1 = document.getElementsByClassName("calcN")[0].value
-    let calcN2 = document.getElementsByClassName("calcN")[1].value
-    let plus = Number(calcN1) + Number(calcN2)
-    let calc = document.getElementById("calc")
-    calc.innerHTML+=plus
+console.log(filteredNumbers); */
+
+
+/* (9)
+let numbers = [10, 15, 5, 20, 25, 30];
+let big = 15;
+let filteredNumbers = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] < big) {
+    filteredNumbers.push(numbers[i]);
+  }
 }
-function minus(){
-    let calcN1 = document.getElementsByClassName("calcN")[0].value
-    let calcN2 = document.getElementsByClassName("calcN")[1].value
-    let minus = Number(calcN1) - Number(calcN2)
-    let calc = document.getElementById("calc")
-    calc.innerHTML+= minus
-}
-function multiply(){ 
-    let calcN1 = document.getElementsByClassName("calcN")[0].value
-    let calcN2 = document.getElementsByClassName("calcN")[1].value
-    let multiply = Number(calcN1) * Number(calcN2)
-    let calc = document.getElementById("calc")
-    calc.innerHTML+=multiply
-}
-function divide()
+
+console.log(filteredNumbers);  */
+
+
+
+    
+
+/*(10)let num = [1, 2, 3, 4, 5, 6]
+for (let i = 1; i < num.length; i+=2) {
+    console.log(num[i])
+}*/
